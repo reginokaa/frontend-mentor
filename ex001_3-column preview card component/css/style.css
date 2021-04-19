@@ -16,12 +16,11 @@ body {
 	width: 920px;
 	height: 495px;
 	display: flex;
-	margin: 170px auto 130px;
+	margin: 130px auto;
 }
 
-section {
-	width: 307px;
-	height: 495px;
+.sedans .suvs .luxury {
+	width: calc(100% / 3);
 }
 
 .sec-box {
@@ -29,15 +28,15 @@ section {
 	margin: 50px 40px;
 }
 
-.sec-header {
-	margin-bottom: 40px;
-	font-size: 30px;
-	text-transform: uppercase;
-	font-family: 'Big Shoulders Display', cursive;
-}
-
 .sec-header img {
 	margin: 0 0 40px 0;
+}
+
+.sec-header h1 {
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
 }
 
 .sec-body {
@@ -88,10 +87,35 @@ section {
 	color: hsl(0, 0%, 95%);
 }
 
-.attribution {
+footer {
+	position: relative;
 	text-align: center;
-	margin-bottom: 50px;
+	bottom: 20px;
+	width: 100%;
 }
 
 /* responsividade */
 
+@media (max-width: 375px) {
+
+	.container {
+		width: 87%;
+		flex-wrap: wrap;
+	}
+
+	.sedans {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius:0;
+	}
+
+	.luxury {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	footer {
+		display: none;
+	}
+}
