@@ -1,10 +1,9 @@
-# Frontend Mentor - 3-column preview card component solution
+# Desafio: 3-column preview card component
 
 Essa é a minha solução para o desafio: [3-column preview card component, do Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
 
 - [Visão Geral](#visão-geral)
   - [O desafio](#o-desafio)
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [Feito com](#feito-com)
 
@@ -19,14 +18,10 @@ Usuários devem ser capazes de:
 - Visualizar a página em dispositivos de tamanhos diversos
 - Ver estados de foco em elementos interativos
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solução: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-with-html-and-css-2XfibBG2f)
+- Deploy: [Netlify](https://frontend-mentor3column-challenge-reginokaa.netlify.app/)
 
 ### Feito com
 

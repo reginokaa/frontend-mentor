@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0%;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	background-color: hsl(210, 46%, 95%);
+	font-family: 'Manrope', sans-serif;
+	font-size: 13px;
+}
+
+.container {
+	width: 740px;
+	height: 275px;
+	background-color: white;
+	margin: 20vh auto;
+	border-radius: 10px;
+	display: flex;
+	position: relative;
+}
+
+.box-img,
+.box-img img {
+	width: 296px;
+	height: 275px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.box-det {
+	width: 444px;
+	height: 275px;
+	padding: 35px;
+}
+
+.box-info h2 {
+	color: hsl(217, 19%, 35%);
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.box-info p {
+	color: hsl(214, 17%, 51%);
+	margin-bottom: 20px;
+}
+
+.box-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.profile {
+	display: flex;
+}
+
+.profile img {
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.profile h4 {
+	color: hsl(217, 19%, 35%);
+	margin-top: 5px;
+}
+
+.profile p {
+	color: hsl(212, 23%, 69%);
+}
+
+.btn-share {
+	width: 28px;
+	height: 28px;
+	background-color: hsl(210, 46%, 95%);
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	display: block;
+	margin-top: 8px;
+}
+
+ion-icon {
+  color: hsl(217, 19%, 35%);
+}
+
+.btn-share:hover {
+	background-color: hsl(217, 19%, 35%);
+}
+
+.btn-share:hover ion-icon {
+	color: white;
+}
+
+/* share pop-up */
+.share-popup {
+	width: 200px;
+	height: 45px;
+	padding: 15px;
+	bottom: 85px;
+	left: 590px;
+	border-radius: 8px;
+	display: none;
+	position: absolute;
+	background-color: hsl(217, 19%, 35%);
+}
+
+.share-popup-tip {
+	width: 0px;
+	height: 0px;
+	position: relative;;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 12px solid hsl(217, 19%, 35%);
+	bottom: -10px;
+	left: 73px;
+}
+
+.share-content {
+	display: flex;
+	justify-content: space-evenly;
+	color: hsl(212, 23%, 69%);
+	letter-spacing: 4px;
+	font-size: 10px;
+}
+
+.share-content img{
+	width: 16px;
+	height: 15px;
+}
+
+.popup-open {
+	display: block;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	bottom: 20px;
+	width: 100%;
+}
+
+/* div {
+	color: hsl(217, 19%, 35%);
+	color: hsl(214, 17%, 51%);
+	color: hsl(212, 23%, 69%);
+	color: hsl(210, 46%, 95%);
+} */
+
+/* responsividade */
