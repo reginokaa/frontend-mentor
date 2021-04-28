@@ -11,46 +11,68 @@ body {
 	background-color: hsl(210, 46%, 95%);
 	font-family: 'Manrope', sans-serif;
 	font-size: 13px;
+  line-height: 1.5;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: clamp(320px, 50vw, 50vw);
+	padding: 35px;
+  margin-top: 60px;
+}
+
+.container, .content-img {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+  background-color: white;
+}
+
+.content-img {
+	flex: 3 1 30ch;
+	height: calc(275px + 5vw);
+	overflow: hidden;
+}
+
+.content-img img {
+	max-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	object-fit: cover;
+	object-position: 10% 90%;
 }
 
 .container {
-	width: 740px;
-	height: 275px;
-	background-color: white;
-	margin: 20vh auto;
-	border-radius: 10px;
-	display: flex;
-	position: relative;
+	border-radius: 8px;
+	overflow: hidden;
+  position: relative;
 }
 
-.box-img,
-.box-img img {
-	width: 296px;
-	height: 275px;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+.content {
+	padding: 16px 32px;
+	flex: 4 1 40ch;
 }
 
-.box-det {
-	width: 444px;
-	height: 275px;
-	padding: 35px;
-}
-
-.box-info h2 {
-	color: hsl(217, 19%, 35%);
+.content-title {
+	margin: 0;
+	font-size: clamp(1.4em, 1.8vw, 1.8em);
+  color: hsl(217, 19%, 35%);
 	font-weight: 700;
 	margin-bottom: 10px;
 }
 
-.box-info p {
+.content-text {
 	color: hsl(214, 17%, 51%);
 	margin-bottom: 20px;
 }
 
-.box-footer {
+.content-social {
 	display: flex;
 	justify-content: space-between;
+  height: 40px;
 }
 
 .profile {
@@ -63,12 +85,12 @@ body {
 	margin-right: 10px;
 }
 
-.profile h4 {
+.profile-name h4 {
 	color: hsl(217, 19%, 35%);
 	margin-top: 5px;
 }
 
-.profile p {
+.profile-name p {
 	color: hsl(212, 23%, 69%);
 }
 
@@ -100,14 +122,13 @@ ion-icon {
 	width: 200px;
 	height: 45px;
 	padding: 15px;
-	bottom: 85px;
-	left: 590px;
+  top: 300px;
+	right: 24vw;
 	border-radius: 8px;
 	display: none;
-	position: absolute;
+	position: fixed;
 	background-color: hsl(217, 19%, 35%);
 }
-
 .share-popup-tip {
 	width: 0px;
 	height: 0px;
@@ -118,7 +139,6 @@ ion-icon {
 	bottom: -10px;
 	left: 73px;
 }
-
 .share-content {
 	display: flex;
 	justify-content: space-evenly;
@@ -126,15 +146,14 @@ ion-icon {
 	letter-spacing: 4px;
 	font-size: 10px;
 }
-
 .share-content img{
 	width: 16px;
 	height: 15px;
 }
-
 .popup-open {
 	display: block;
 }
+/* -------------- */
 
 footer {
 	position: absolute;
@@ -150,4 +169,52 @@ footer {
 	color: hsl(210, 46%, 95%);
 } */
 
-/* responsividade */
+@media (max-width: 1162px) {
+  .share-popup {
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    top: auto;
+    bottom: 0px;
+    right:  0px;
+    border-radius: 0 0 8px 8px;
+    display: none;
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+  }
+
+  .share-popup-tip {
+    display: none;
+  }
+
+  .share-content {
+    display: flex;
+    justify-content: flex-start;
+    color: hsl(212, 23%, 69%);
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+  .share-content img{
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+  }
+  .popup-open {
+    display: block;
+  }
+
+  .btn-share {
+    z-index: 1;
+    background-color: hsl(214, 17%, 51%);
+  }
+
+  ion-icon {
+    color: white;
+  }
+
+  footer {
+    display: none;
+  }
+}

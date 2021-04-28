@@ -2,64 +2,70 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-	<title>Frontend Mentor | Article preview component</title>
+  <title>Frontend Mentor | Article preview component</title>
 </head>
 
 <body>
 
-	<div class="container">
-		<div class="box-img">
-			<img src="./images/drawers.jpg" alt="furniture">
-		</div>
-		<div class="box-det">
-			<div class="box-info">
-				<h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
-				<p> Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve
-					got some simple tips to help you make any room feel complete.</p>
-			</div>
-			<div class="box-footer">
-				<div class="profile">
-					<img src="./images/avatar-michelle.jpg" alt="avatar">
-					<div class="profile-name">
-						<h4>Michelle Appleton</h4>
-						<p>28 Jun 2020</p>
-					</div>
-				</div>
-				<button class="btn-share">
-					<ion-icon name="arrow-redo"></ion-icon>
-				</button>
-			</div>
-		</div>
-		<!-- share pop-up -->
-		<div class="share-popup">
-			<div class="share-content">
-				<p>SHARE</p>
-				<a href="#" class="share-social">
-					<img src="./images/icon-facebook.svg" alt="facebook">
-				</a>
-				<a href="#" class="share-social">
-					<img src="./images/icon-twitter.svg" alt="twitter">
-				</a>
-				<a href="#" class="share-social">
-					<img src="./images/icon-pinterest.svg" alt="">
-				</a>
-			</div>
-			<div class="share-popup-tip"></div>
-		</div>
-	</div>
-	<footer>
-		<div class="attribution">
-			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> <br>
-			Coded by <a href="https://www.instagram.com/reginokaa" target="_blank">@reginokaa</a>
-		</div>
-	</footer>
-	<script src="./js/main.js"></script>
-	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <div class="card">
+    <article class="container">
+      <div class="content-img">
+        <img src="./images/drawers.jpg" width="1500" height="1368" alt="furniture">
+      </div>
+      <div class="content">
+        <h2 class="content-title">Shift the overall look and feel by adding these wonderful touches to furniture in
+          your
+          home</h2>
+        <p class="content-text"> Ever been in a room and felt like something was missing? Perhaps it felt slightly
+          bare
+          and uninviting. I’ve
+          got some simple tips to help you make any room feel complete.</p>
+        <div class="content-social">
+          <div class="profile">
+            <img src="./images/avatar-michelle.jpg" alt="avatar">
+            <div class="profile-name">
+              <h4>Michelle Appleton</h4>
+              <p>28 Jun 2020</p>
+            </div>
+          </div>
+          <button class="btn-share">
+            <ion-icon name="arrow-redo"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <!-- share pop-up -->
+      <div class="share-popup">
+        <div class="share-content">
+          <p>SHARE</p>
+          <a href="#" class="share-social">
+            <img src="./images/icon-facebook.svg" alt="facebook">
+          </a>
+          <a href="#" class="share-social">
+            <img src="./images/icon-twitter.svg" alt="twitter">
+          </a>
+          <a href="#" class="share-social">
+            <img src="./images/icon-pinterest.svg" alt="">
+          </a>
+        </div>
+        <div class="share-popup-tip"></div>
+      </div>
+  </div>
+  </article>
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> <br>
+      Coded by <a href="https://www.instagram.com/reginokaa" target="_blank">@reginokaa</a>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 
 </html>

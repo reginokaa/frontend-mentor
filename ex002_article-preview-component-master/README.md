@@ -20,10 +20,10 @@ Usuários devem ser capazes de:
 
 ### Links
 
-> [ em desenvolvimento ]
+<!-- > [ em desenvolvimento ] -->
 
-<!-- - Solução: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-with-html-and-css-2XfibBG2f)
-- Deploy: [Netlify](https://frontend-mentor3column-challenge-reginokaa.netlify.app/) -->
+<!-- - Solução: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-with-html-and-css-2XfibBG2f) -->
+- Deploy: [Netlify](https://frontend-mentor-articlepreview-challenge-reginokaa.netlify.app/)
 
 ### Feito com
 
