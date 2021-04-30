@@ -22,7 +22,7 @@ Usuários devem ser capazes de:
 
 <!-- > [ em desenvolvimento ] -->
 
-<!-- - Solução: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-with-html-and-css-2XfibBG2f) -->
+- Solução: [Frontend Mentor](https://www.frontendmentor.io/solutions/i-tried-to-implement-a-method-named-natural-flow--q4jtD2q_)
 - Deploy: [Netlify](https://frontend-mentor-articlepreview-challenge-reginokaa.netlify.app/)
 
 ### Feito com
